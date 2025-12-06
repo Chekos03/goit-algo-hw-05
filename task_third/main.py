@@ -129,21 +129,5 @@ for text_name, text in texts:
 
 
 
-# time_bm_1_exist = timeit.timeit(lambda: boyer_moore_search(text_1, pattern_exist), number=1000)
-# time_bm_1_fake = timeit.timeit(lambda: boyer_moore_search(text_1, pattern_fake), number=1000)
-# time_bm_2_exist = timeit.timeit(lambda: boyer_moore_search(text_2, pattern_exist), number=1000)
-# time_bm_2_fake = timeit.timeit(lambda: boyer_moore_search(text_2, pattern_fake), number=1000)
-
-# time_kmp_1_exist = timeit.timeit(lambda: kmp_search(text_1, pattern_exist), number=1000)
-# time_kmp_1_fake = timeit.timeit(lambda: kmp_search(text_1, pattern_fake), number=1000)
-# time_kmp_2_exist = timeit.timeit(lambda: kmp_search(text_2, pattern_exist), number=1000)
-# time_kmp_2_fake = timeit.timeit(lambda: kmp_search(text_2, pattern_fake), number=1000)
-
-# time_rk_1_exist = timeit.timeit(lambda: rabin_karp_search(text_1, pattern_exist), number=1000)
-# time_rk_1_fake = timeit.timeit(lambda: rabin_karp_search(text_1, pattern_fake), number=1000)
-# time_rk_2_exist = timeit.timeit(lambda: rabin_karp_search(text_2, pattern_exist), number=1000)
-# time_rk_2_fake = timeit.timeit(lambda: rabin_karp_search(text_2, pattern_fake), number=1000)
-
-
 
 
